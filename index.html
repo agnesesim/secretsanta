@@ -23,7 +23,7 @@
     <body>
         <header class="site-header sticky-top py-1">
             <nav class="container d-flex flex-column flex-md-row justify-content-between">
-                <h4 disabled class="py-2 d-none d-md-inline-block">Cosa avrà regalato babbo natale segreto a Carlotta?</h4>
+                <h4 disabled class="py-2 d-none d-md-inline-block">Cosa avrà regalato Babbo Natale segreto a Carlotta?</h4>
             </nav>
           </header>
           
@@ -923,17 +923,15 @@
                         var res = json.filter(j=> j.data == today)
                         obj = res[0];
 
-                        $('#indizio_giornaliero').text(obj.id + ".   " + obj.indizio);
-                         console.log("#"+obj.id+"0"+obj.start)
+                       
+                        $('#indizio_giornaliero').text(obj.indizio);
+           
                         if (obj.start < 10)
                             $("#"+obj.id+"0"+obj.start).focus();
                         else
                             $("#"+obj.id+obj.start).focus();
                     });
                     
-                    console.log(obj.indizio);
-              
-
                     // Evento che controlla la pressione dei tasti
                     $(".form-control").keyup(function (event) {
                         switch (event.keyCode) {
