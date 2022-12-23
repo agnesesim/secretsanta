@@ -20,7 +20,7 @@
         "indizio": "cosa dice bugs bunny?",
         "soluzione": "bimbe",
         "data": "27-12-2022", 
-        "start": 1,
+        "start": 4,
         "end": 1
     },
     {
@@ -28,7 +28,7 @@
         "indizio": "cosa ti prende quando passa un estraneo?",
         "soluzione": "brividino",
         "data": "29-12-2022", 
-        "start": 1,
+        "start": 2,
         "end": 1
     },
     {
@@ -36,7 +36,7 @@
         "indizio": "deisgner e architetta friulana",
         "soluzione": "gaeaulenti",
         "data": "31-12-2022", 
-        "start": 1,
+        "start": 3,
         "end": 1
     },
     {
@@ -52,7 +52,7 @@
         "indizio": "quando?",
         "soluzione": "sempreee",
         "data": "03-01-2023", 
-        "start": 1,
+        "start": 5,
         "end": 1
     },
     {
@@ -68,7 +68,7 @@
         "indizio": "la serie con l'americana più parigina di sempre?",
         "soluzione": "emilyinparis",
         "data": "07-01-2023", 
-        "start": 1,
+        "start": 3,
         "end": 1
     },
     {
@@ -76,7 +76,7 @@
         "indizio": "quando una persona non ha voglia di uscire, è una... ?",
         "soluzione": "pussy",
         "data": "09-01-2023", 
-        "start": 1,
+        "start": 3,
         "end": 1
     },
     {
@@ -84,7 +84,7 @@
         "indizio": "cosa è camilla per noi?",
         "soluzione": "amika",
         "data": "11-01-2023", 
-        "start": 1,
+        "start": 4,
         "end": 1
     },
     {
@@ -92,23 +92,23 @@
         "indizio": "la tua risposta preferita",
         "soluzione": "sioh",
         "data": "13-01-2023", 
-        "start": 1,
+        "start": 4,
         "end": 1
     },
     {
-        "id": 12,
+        "id": 6,
         "indizio": "la tua abilità a call of duty",
         "soluzione": "attaccoagrappolo",
         "data": "15-01-2023", 
-        "start": 1,
+        "start": 3,
         "end": 1
     },
     {
-        "id": 13,
+        "id": 2,
         "indizio": "cosa prepari con il grano",
         "soluzione": "pastiera",
         "data": "17-01-2023", 
-        "start": 1,
+        "start": 5,
         "end": 1
     },
     {
@@ -116,7 +116,7 @@
         "indizio": "una marca di scarpe",
         "soluzione": "superga",
         "data": "19-01-2023", 
-        "start": 1,
+        "start": 6,
         "end": 1
     }
 ]
