@@ -28,7 +28,6 @@ var removeConfetti; //call to stop the confetti animation and remove all confett
 	}
 
 	function startConfettiInner() {
-		debugger;
 		var width = window.innerWidth;
 		var height = window.innerHeight;
 		window.requestAnimFrame = (function() {
@@ -55,6 +54,12 @@ var removeConfetti; //call to stop the confetti animation and remove all confett
 			}, true);
 		}
 		var context = canvas.getContext("2d");
+
+
+		context.fillStyle = "black";
+		context.font = "bold 18px Arial";
+		context.fillText("Risposta esatta!", (canvas.width / 2) - 17, (canvas.height / 2) + 8);
+
 		while (particles.length < maxParticleCount)
 			particles.push(resetParticle({}, width, height));
 		streamingConfetti = true;
